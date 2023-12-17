@@ -1,0 +1,96 @@
+body{
+    background-image: url(./Image/bg3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 85%;
+    background-position: bottom;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+header{
+    background-image: linear-gradient(rgb(194, 120, 156),rgb(201, 173, 187),rgb(194,120,156));
+    border-bottom: 3px solid rgb(60, 12, 35);
+    padding: 10px 0;
+    box-shadow: 1px 2px 4px rgb(60, 12, 35);
+}
+.IntroH1{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 2px 4px rgb(194, 120, 156);
+    font-size: large;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li{
+    display: inline;
+    margin-left: 20px;
+}
+nav ul li a{
+    color: rgb(88, 71, 12);
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    text-shadow: 1px 2px 4px rgb(154, 151, 143);
+}
+nav ul li a:hover{
+    color: rgb(189, 181, 151);
+    text-shadow: 1px 2px 4px rgb(88, 71, 12);
+}
+.container{
+    text-align: center;
+    max-width: 800px;
+    margin: 130px auto;
+    border: 2px solid rgb(88, 71, 12);
+    box-shadow: 1px 2px 4px rgb(60, 49, 7);
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+
+}
+.IntroH2{
+    color: rgb(60, 49, 7);
+    font-weight: bold;
+}
+.form-group{
+    margin-bottom: 20px;
+    color: rgb(60,49,7);
+    font-weight: bold;
+}
+input{
+    border: 0 solid rgb(60, 49, 7);
+    border-radius: 10px;
+    width: auto;
+    height: 30px;
+}
+textarea{
+    border: 0 solid rgb(60,49,7);
+    border-radius: 10px;
+}
+button{
+    border: 0 solid rgb(60, 49, 7);
+    border-radius:30px;
+    width: auto;
+    height: 30px;
+    background-color: rgb(60, 49, 7);
+    color: white;
+}
+button:hover{
+    box-shadow: 1px 2px 4px rgb(60,49,7);
+}
+.container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('background-image.jpg');
+    filter: blur(5px);
+    z-index: -1;
+    backdrop-filter: blur(5px);
+}

@@ -1,0 +1,93 @@
+body{
+    background-image:url(./Image/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: cursive;
+}
+header{
+    text-align: center;
+}
+.IntroH1{
+    color: rgb(136, 51, 96);
+    font-size: large;
+    transition: 0.3s;
+}
+.IntroH1:hover{
+    color:rgb(137, 99, 120);
+    text-shadow: 1px 2px 4px rgb(24, 1, 18);
+    cursor: pointer;
+}
+nav ul{
+    list-style: none;
+    padding-bottom: 4px;
+    font-weight: bold;
+}
+nav ul li{
+    display: inline;
+    margin-left: 20px;
+}
+nav ul li a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(72, 43, 61);
+    font-size: x-large;
+}
+nav ul li a:hover{
+    text-shadow: 1px 2px 4px rgb(42, 3, 32);
+}
+.IntroSection{
+    padding-bottom: 40px;
+    padding-top: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.section-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #320416;
+}
+.IntroP{
+    color: #320416;
+    font-weight: bold;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.Facebook-link{
+    display: inline-block;
+    text-decoration: none;
+    
+}
+.Facebook-logo{
+      width: 40px;
+      height:40px; 
+      vertical-align: middle; 
+      margin-right: 5px;
+      border-radius: 70px;  
+}
+.Email-link{
+        display: inline-block;
+        text-decoration: none;
+}
+.Email-logo{
+        width: 40px;
+        height: auto;
+        vertical-align: middle;
+        margin-right: 5px;
+        border-radius: 50px;
+}
+.insta-link{
+        display: inline-block;
+        text-decoration: none;
+}
+.insta-logo{
+        width: 40px;
+        height: auto;
+        vertical-align: middle;
+        margin-right: 5px;
+        border-radius: 60px;
+}

@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(85, 101, 81);
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+header{
+    background-image: linear-gradient(rgb(85,101,81) , rgb(49,61,46),rgb(85,101,81));
+    padding: 10px 0;
+    color: #2e312f;
+    text-shadow: 3px 3px 3px rgb(96, 104, 94);
+    text-align: center;
+    border: 3px solid rgb(49,61,46);
+    border-radius: 20%;
+    font-size:larger;
+}
+nav ul{
+    list-style: none;
+    padding-bottom: 4px;
+    font-weight: bold;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: x-large;
+    color: rgb(49,61,46);
+    text-shadow :3px 3px 3px white;
+    transition: 0.4s;
+}
+nav ul li a:hover{
+    color: #fff;
+    text-shadow :3px 3px 3px rgb(49,61,46);
+}
+img{
+    border: 0px;
+    border-radius: 12%;
+    margin-top: 10px;
+}
+.Flowers{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+figcaption{
+    font-size: large;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.add-to-cart{
+    margin: 10px;
+    border: 1px solid rgb(49,61,46);
+    border-radius: 50px;
+    background-color: #3f5647;
+    color: #fff;
+    height: 40px;
+    transition: 0.4s;
+}
+.add-to-cart:hover{
+    background-color: #36423a;
+    color: rgb(210, 219, 207);
+    box-shadow: 1px 2px 3px rgb(210, 219, 207);
+}
+.Price{
+    color: rgb(36, 44, 34);
+    font-weight: bold;
+}
+aside{
+    text-align: center;
+}
+#Cart{
+    font-size:xx-large;
+}
+.total{
+    font-size: large;
+    font-weight: bold;
+}
+.checkout{
+    margin: 10px;
+    border: 1px solid rgb(49,61,46);
+    border-radius: 50px;
+    background-color: #3f5647;
+    color: #fff;
+    height: 40px;
+    transition: 0.4s;
+}
+.checkout:hover{
+    background-color: #36423a;
+    color: rgb(210, 219, 207);
+    box-shadow: 1px 2px 3px rgb(210, 219, 207);
+}
+footer{
+    background-color: #36423a;
+    padding-bottom: 40px;
+    border-top: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.contact-info{
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+

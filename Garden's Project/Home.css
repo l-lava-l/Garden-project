@@ -1,0 +1,60 @@
+body{
+    background-image: url(./Image/g.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family:cursive;
+}
+.header{
+    color: white;
+    font-size: larger;
+    transition: 0.3s;
+    cursor: pointer;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 3px 5px 3px rgb(67, 115, 75) ;
+}
+.header:hover{
+    text-shadow: 3px 5px 3px rgb(40, 65, 44);
+}
+nav ul{
+    list-style: none;
+    padding-bottom: 4px;
+    text-align: center;
+    font-weight: bold;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a{
+    color: rgb(157, 52, 145);
+    text-shadow: 1px 2px 4px white;
+    transition: 0.3s;
+    text-decoration: none;
+    font-size:x-large;
+}
+nav ul li a:hover{
+    color: rgb(75, 9, 64);
+}
+.IntroH2{
+    margin-top: 150px;
+    color: rgb(45, 22, 68);
+    text-shadow: 3px 3px 3px rgb(100, 62, 106);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.IntroH2:hover{
+    text-shadow: 3px 3px 3px rgb(99, 102, 133);
+}
+.IntroP{
+    color: #fff;
+    text-align: center;
+    position: relative;
+    margin-top: 350px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.IntroP:hover{
+    color: rgb(45, 22, 68);
+}
